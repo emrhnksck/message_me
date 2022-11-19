@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'chatroom#index'
-  get 'sessions/index'
+  get 'login', to: 'sessions#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
