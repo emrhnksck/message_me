@@ -47,6 +47,8 @@ gem "sass-rails"
 gem 'semantic-ui-sass'
 gem 'jquery-rails'
 
+gem 'htmlbeautifier'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
